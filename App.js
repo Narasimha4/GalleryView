@@ -95,7 +95,6 @@ export default class Gallery extends Component {
       borderRadius: 30,
       data
     };
-
   }
 
   _addData = () => {
@@ -115,20 +114,19 @@ export default class Gallery extends Component {
     }
   }
 
+
+
   render() {
     return (
       <View style={{ flex: 1, backgroundColor: '#f4f4f4' }}>
-        <View>
-          <TouchableOpacity style={styles.textInput} onPress={() => this._handlePress(this.state.columns)}>
-            <Text>Change View</Text>
+        <View >
+          <TouchableOpacity elevation={5} style={styles.buttonContainer} onPress={() => this._handlePress(this.state.columns)}>
+            <Text style={styles.textStyle}>Change View</Text>
           </TouchableOpacity>
         </View>
-       
-        <View style={styles.borderView}>
 
-        </View>
-        <View style={{ flex: 1, padding: this.state.padding, borderRadius: 30 }}>
-          <Masonry 
+        <View style={{ flex: 1,  marginTop: 20, padding: this.state.padding, borderRadius: 30 }}>
+          <Masonry
             spacing={4}
             bricks={this.state.data}
             columns={this.state.columns}
@@ -143,6 +141,7 @@ const styles = StyleSheet.create({
   borderView: {
     marginTop: 10,
     borderBottomColor: 'black',
+
     borderBottomWidth: 2,
   },
   textInput: {
@@ -151,5 +150,32 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginTop: 30,
     height: 50,
+  },
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF'
+  },
+  textStyle: {
+    color: '#FFFFFF',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  buttonContainer: {
+    backgroundColor: '#2E9298',
+    borderRadius: 10,
+    padding: 10,
+    marginTop: 30,
+    marginLeft: 230,
+    marginRight: 10,
+    alignItems: 'center',
+    shadowColor: '#000000',
+    shadowOffset: {
+      width: 0,
+      height: 3
+    },
+    shadowRadius: 5,
+    shadowOpacity: 1.0
   }
 });
