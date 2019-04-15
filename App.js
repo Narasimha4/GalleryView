@@ -91,7 +91,6 @@ export default class Gallery extends Component {
     console.disableYellowBox = true
     this.state = {
       columns: 1,
-      padding: 10,
       borderRadius: 30,
       data
     };
@@ -104,10 +103,10 @@ export default class Gallery extends Component {
     });
   }
 
-  _handlePress = (rows) => {
-    if (rows === 1) {
+  _handlePress = (column) => {
+    if (column === 1) {
       this.setState({ columns: 2 })
-    } else if (rows === 2) {
+    } else if (column === 2) {
       this.setState({ columns: 4 })
     } else {
       this.setState({ columns: 1 })
@@ -125,7 +124,7 @@ export default class Gallery extends Component {
           </TouchableOpacity>
         </View>
 
-        <View style={{ flex: 1,  marginTop: 20, padding: this.state.padding, borderRadius: 30 }}>
+        <View style={{ flex: 1,  marginTop: 15, padding: 15, borderRadius: 30 }}>
           <Masonry
             spacing={4}
             bricks={this.state.data}
@@ -141,7 +140,6 @@ const styles = StyleSheet.create({
   borderView: {
     marginTop: 10,
     borderBottomColor: 'black',
-
     borderBottomWidth: 2,
   },
   textInput: {
@@ -168,7 +166,7 @@ const styles = StyleSheet.create({
     padding: 10,
     marginTop: 30,
     marginLeft: 230,
-    marginRight: 10,
+    marginRight: 15,
     alignItems: 'center',
     shadowColor: '#000000',
     shadowOffset: {
