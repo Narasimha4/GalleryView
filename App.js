@@ -9,6 +9,7 @@ import {
 import FastImage from 'react-native-fast-image';
 import Masonry from 'react-native-masonry';
 
+// Unsplash API Key
 const ACCESS_KEY = 'dbe8c37268b52442b08fa86c8fa140f23837e1cdc9f52f3a8a78f46f1fe0dafa';
 // list of local images
 let data = [
@@ -119,7 +120,6 @@ export default class Gallery extends Component {
       });
   }
 
-
   _handlePress = (column) => {
     if (column === 1) {
       this.setState({ columns: 2 })
@@ -132,7 +132,7 @@ export default class Gallery extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, backgroundColor: '#f4f4f4' }}>
+      <View style={{ flex: 1, backgroundColor: '#000000' }}>
         <View >
           <TouchableOpacity elevation={5} style={styles.buttonContainer} onPress={() => this._handlePress(this.state.columns)}>
             <Text style={styles.textStyle}>Change View</Text>
@@ -162,9 +162,9 @@ const styles = StyleSheet.create({
     padding: 10,
     marginTop: 30,
     marginLeft: 230,
-    marginRight: 15,
+    marginRight: 25,
     alignItems: 'center',
-    shadowColor: '#000000',
+    shadowColor: '#FFDF00',
     shadowOffset: {
       width: 0,
       height: 3
