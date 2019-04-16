@@ -113,8 +113,6 @@ export default class Gallery extends Component {
     }
   }
 
-
-
   render() {
     return (
       <View style={{ flex: 1, backgroundColor: '#f4f4f4' }}>
@@ -137,24 +135,6 @@ export default class Gallery extends Component {
 }
 
 const styles = StyleSheet.create({
-  borderView: {
-    marginTop: 10,
-    borderBottomColor: 'black',
-    borderBottomWidth: 2,
-  },
-  textInput: {
-    marginRight: 50,
-    alignItems: 'flex-end',
-    justifyContent: 'center',
-    marginTop: 30,
-    height: 50,
-  },
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#FFFFFF'
-  },
   textStyle: {
     color: '#FFFFFF',
     alignItems: 'center',
