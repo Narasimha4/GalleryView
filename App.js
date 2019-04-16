@@ -121,7 +121,6 @@ export default class Gallery extends Component {
             <Text style={styles.textStyle}>Change View</Text>
           </TouchableOpacity>
         </View>
-
         <View style={{ flex: 1,  marginTop: 15, padding: 15, borderRadius: 30 }}>
           <Masonry
             spacing={4}
@@ -144,7 +143,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#2E9298',
     borderRadius: 10,
     padding: 10,
-    marginTop: 30,
+    marginTop: 40,
     marginLeft: 230,
     marginRight: 15,
     alignItems: 'center',
