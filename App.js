@@ -9,7 +9,8 @@ import {
 import FastImage from 'react-native-fast-image';
 import Masonry from 'react-native-masonry';
 
-// list of images
+const ACCESS_KEY = 'dbe8c37268b52442b08fa86c8fa140f23837e1cdc9f52f3a8a78f46f1fe0dafa';
+// list of local images
 let data = [
   {
     uri: 'https://s-media-cache-ak0.pinimg.com/736x/32/7f/d9/327fd98ae0146623ca8954884029297b.jpg',
@@ -92,16 +93,32 @@ export default class Gallery extends Component {
     this.state = {
       columns: 1,
       borderRadius: 30,
-      data
+      images:[]
     };
+    this._loadImages = this._loadImages.bind(this);
   }
 
-  _addData = () => {
-    const appendedData = [...data, ...addData];
-    this.setState({
-      data: appendedData
-    });
+  async componentDidMount() {
+    let imagesData = [];
+    let images = await this._loadImages();
+    for (let i = 0; i < images.length; i++) {
+      imagesData.push({uri:images[i].urls.regular});
+    }
+    imagesData = imagesData.concat(data);
+    this.setState({ images: imagesData });
   }
+
+  _loadImages() {
+    return fetch('https://api.unsplash.com/photos/?client_id=' + ACCESS_KEY)
+      .then((response) => response.json())
+      .then((responseJson) => {
+        return responseJson;
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }
+
 
   _handlePress = (column) => {
     if (column === 1) {
@@ -121,10 +138,10 @@ export default class Gallery extends Component {
             <Text style={styles.textStyle}>Change View</Text>
           </TouchableOpacity>
         </View>
-        <View style={{ flex: 1,  marginTop: 15, padding: 15, borderRadius: 30 }}>
+        <View style={{ flex: 1, marginTop: 15, padding: 15, borderRadius: 30 }}>
           <Masonry
             spacing={4}
-            bricks={this.state.data}
+            bricks={this.state.images}
             columns={this.state.columns}
             customImageComponent={FastImage} />
         </View>
@@ -143,7 +160,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#2E9298',
     borderRadius: 10,
     padding: 10,
-    marginTop: 40,
+    marginTop: 30,
     marginLeft: 230,
     marginRight: 15,
     alignItems: 'center',
