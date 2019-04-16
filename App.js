@@ -132,7 +132,7 @@ export default class Gallery extends Component {
 
   render() {
     return (
-      <View style={{ flex: 1, backgroundColor: '#000000' }}>
+      <View style={{ flex: 1, backgroundColor: '#000000'}}>
         <View >
           <TouchableOpacity elevation={5} style={styles.buttonContainer} onPress={() => this._handlePress(this.state.columns)}>
             <Text style={styles.textStyle}>Change View</Text>
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#2E9298',
     borderRadius: 10,
     padding: 10,
-    marginTop: 30,
+    marginTop: 40,
     marginLeft: 230,
     marginRight: 25,
     alignItems: 'center',
