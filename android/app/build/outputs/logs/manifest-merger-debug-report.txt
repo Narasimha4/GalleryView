@@ -1,0 +1,241 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-fast-image] /Users/narasimha/GalleryViewApp/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/453001d32b0fcd08310fff16608f70e6/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/54ae0a878aaa041629588c347991e471/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/b16a8be549d7d5348eacaeb28cc9336d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fecddde2004f9cbcd9d0e03bec5c8d0e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ff496373dbd5bf6ab17b0c4ac23110aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a40bbce19950627b516cf441772cb6c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b6cf2bc247872c88a1dab0c686b4c7e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1176f31401e1f3b035117820cf11949d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/722c9e41f476c61aa93bc951c8e9a991/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/d32e9c8f54bbc38e6b0ee964ac878f13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6b135f2010c79c97ee096a7ac909af3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/da90b54b6495b35be932b8692f9606f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9b7c2dea5ca9520768a479ef5c6ddae7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9d7c4ef355c86933c24dbcc20bd68cb3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/06548303cc9bd81ad0ff441b81c28691/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f6b3c1428c13ecbaa9f749ee996d903a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4d1bca4de97660ca606d792aa1b20dce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c49fa99e33a37c0dceead48e3b8d9941/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8e8b59210baa801b193bab30efb01091/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34b7867d09ee90b408a5ca4dba4d871b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ae1214c4fe7ff33331cf98b5ef094bbe/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/59f01ec6b0b9e77b8c5b2a6c673eca13/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/22f711fd824ea626013a6eb0638699af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/14d40ae63220d7d9b012128f115bff5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f3d72b6c8614b8e1cfaf46427496295c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/da711b6eaebdfd7ada4d3bdbf2bc0cec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bf5d4c8729708725269c7679b229b057/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/5a80b7eff5dbab88a1ac48458dacd972/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/00c2a44640577687dce24e78a09abfc5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8ebd1b9f19b51902ab8921db88aebe79/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f6ca0cb47f6bdda3ed80e260d43b5ea6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/fcdf20081acecd20549daca45b2426e3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/19a5a815ee68b211e73313898f2ec53b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/4ebb968b4a36970f99ae1e193f89962a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/b91345431da8a4469af86277a90e7ee0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/5cf68265304d78cbcc6c41f909f36f17/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/a550ef01981c481cc55d2871fab43bdd/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/0be2a1ee943172e255d84beb171f2326/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:2:3-28
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:2:3-28
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/453001d32b0fcd08310fff16608f70e6/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/453001d32b0fcd08310fff16608f70e6/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fecddde2004f9cbcd9d0e03bec5c8d0e/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fecddde2004f9cbcd9d0e03bec5c8d0e/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8e8b59210baa801b193bab30efb01091/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8e8b59210baa801b193bab30efb01091/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34b7867d09ee90b408a5ca4dba4d871b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34b7867d09ee90b408a5ca4dba4d871b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/5a80b7eff5dbab88a1ac48458dacd972/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/5a80b7eff5dbab88a1ac48458dacd972/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/a550ef01981c481cc55d2871fab43bdd/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/a550ef01981c481cc55d2871fab43bdd/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8e8b59210baa801b193bab30efb01091/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:10:7-46
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:10:7-46
+	tools:targetApi
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.galleryview.MainActivity
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-fast-image] /Users/narasimha/GalleryViewApp/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fast-image] /Users/narasimha/GalleryViewApp/node_modules/react-native-fast-image/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/453001d32b0fcd08310fff16608f70e6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/453001d32b0fcd08310fff16608f70e6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/54ae0a878aaa041629588c347991e471/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/54ae0a878aaa041629588c347991e471/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/b16a8be549d7d5348eacaeb28cc9336d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/b16a8be549d7d5348eacaeb28cc9336d/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fecddde2004f9cbcd9d0e03bec5c8d0e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fecddde2004f9cbcd9d0e03bec5c8d0e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ff496373dbd5bf6ab17b0c4ac23110aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/ff496373dbd5bf6ab17b0c4ac23110aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a40bbce19950627b516cf441772cb6c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a40bbce19950627b516cf441772cb6c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b6cf2bc247872c88a1dab0c686b4c7e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/b6cf2bc247872c88a1dab0c686b4c7e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1176f31401e1f3b035117820cf11949d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1176f31401e1f3b035117820cf11949d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/722c9e41f476c61aa93bc951c8e9a991/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/722c9e41f476c61aa93bc951c8e9a991/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/d32e9c8f54bbc38e6b0ee964ac878f13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/d32e9c8f54bbc38e6b0ee964ac878f13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6b135f2010c79c97ee096a7ac909af3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/c6b135f2010c79c97ee096a7ac909af3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/da90b54b6495b35be932b8692f9606f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/da90b54b6495b35be932b8692f9606f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9b7c2dea5ca9520768a479ef5c6ddae7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9b7c2dea5ca9520768a479ef5c6ddae7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9d7c4ef355c86933c24dbcc20bd68cb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/9d7c4ef355c86933c24dbcc20bd68cb3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/06548303cc9bd81ad0ff441b81c28691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/06548303cc9bd81ad0ff441b81c28691/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f6b3c1428c13ecbaa9f749ee996d903a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/f6b3c1428c13ecbaa9f749ee996d903a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4d1bca4de97660ca606d792aa1b20dce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4d1bca4de97660ca606d792aa1b20dce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c49fa99e33a37c0dceead48e3b8d9941/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/c49fa99e33a37c0dceead48e3b8d9941/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8e8b59210baa801b193bab30efb01091/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/8e8b59210baa801b193bab30efb01091/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34b7867d09ee90b408a5ca4dba4d871b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/34b7867d09ee90b408a5ca4dba4d871b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ae1214c4fe7ff33331cf98b5ef094bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ae1214c4fe7ff33331cf98b5ef094bbe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/59f01ec6b0b9e77b8c5b2a6c673eca13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/59f01ec6b0b9e77b8c5b2a6c673eca13/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/22f711fd824ea626013a6eb0638699af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/22f711fd824ea626013a6eb0638699af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/14d40ae63220d7d9b012128f115bff5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/14d40ae63220d7d9b012128f115bff5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f3d72b6c8614b8e1cfaf46427496295c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/f3d72b6c8614b8e1cfaf46427496295c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/da711b6eaebdfd7ada4d3bdbf2bc0cec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/da711b6eaebdfd7ada4d3bdbf2bc0cec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bf5d4c8729708725269c7679b229b057/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bf5d4c8729708725269c7679b229b057/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/5a80b7eff5dbab88a1ac48458dacd972/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/5a80b7eff5dbab88a1ac48458dacd972/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/00c2a44640577687dce24e78a09abfc5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/00c2a44640577687dce24e78a09abfc5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8ebd1b9f19b51902ab8921db88aebe79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/8ebd1b9f19b51902ab8921db88aebe79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f6ca0cb47f6bdda3ed80e260d43b5ea6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f6ca0cb47f6bdda3ed80e260d43b5ea6/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/fcdf20081acecd20549daca45b2426e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/fcdf20081acecd20549daca45b2426e3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/19a5a815ee68b211e73313898f2ec53b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/19a5a815ee68b211e73313898f2ec53b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/4ebb968b4a36970f99ae1e193f89962a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/4ebb968b4a36970f99ae1e193f89962a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/b91345431da8a4469af86277a90e7ee0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/b91345431da8a4469af86277a90e7ee0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/5cf68265304d78cbcc6c41f909f36f17/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/5cf68265304d78cbcc6c41f909f36f17/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/a550ef01981c481cc55d2871fab43bdd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/a550ef01981c481cc55d2871fab43bdd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/0be2a1ee943172e255d84beb171f2326/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/0be2a1ee943172e255d84beb171f2326/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/narasimha/GalleryViewApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.7.1] /Users/narasimha/.gradle/caches/transforms-1/files-1.1/okhttp3-integration-4.7.1.aar/6ec099bd82e6802858ea944e2b0071fe/AndroidManifest.xml:12:13-84
